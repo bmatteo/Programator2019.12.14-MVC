@@ -1,0 +1,13 @@
+#header {
+    text-align: center;
+    font-size: 28px;
+    color: blue;
+    margin: 20px;
+    padding: 5px;
+}
+
+.bmi-result-row {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}

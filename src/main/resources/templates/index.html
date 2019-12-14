@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div id="header">
+    Kalkulator BMI
+</div>
+<form method="post" action="/result" id="bmi-form" name="bmiForm" onsubmit="return validateFormFields()">
+    <input type="text" placeholder="Waga" name="weight" class="text-box" th:value="${bmiModel.weight}"><br>
+    <input type="text" placeholder="Wzrost" name="height" class="text-box" th:value="${bmiModel.height}"><br>
+    <input type="text" placeholder="Płeć" name="sex" class="text-box" th:value="${bmiModel.sex}"><br>
+    <input type="submit">
+</form>
+<a href="/findForm" class="find-button">Wyszukaj BMI</a>
+<a href="/allRecords" class="find-button">Wszystkie BMI</a>
+</body>
+</html>

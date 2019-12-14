@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="result.css">
+</head>
+<body>
+<div id="header">
+    Kalkulator BMI
+</div>
+<div th:text="${'Twój wzrost: ' + bmiResult.height}" class="bmi-result-row"></div>
+<div th:text="${'Twoja waga: ' + bmiResult.weight}" class="bmi-result-row"></div>
+<div th:text="${'Twoja płeć: ' + bmiResult.sex}" class="bmi-result-row"></div>
+<div th:text="${'Twoje BMI: ' + bmiResult.bmiValue}" class="bmi-result-row"></div>
+<div th:text="${'Twoje ID: ' + bmiResult.id}" class="bmi-result-row"></div>
+</body>
+</html>
