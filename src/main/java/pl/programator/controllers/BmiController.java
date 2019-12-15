@@ -13,6 +13,10 @@ public class BmiController {
     @Autowired
     IBmiService bmiService;
 
+    public BmiController(IBmiService bmiService) {
+        this.bmiService = bmiService;
+    }
+
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String showIndex2() {
         return "redirect:/index";
