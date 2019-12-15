@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="allResult.css">
 </head>
 <body>
-<div th:each="bmi : ${bmiList}">
+<div th:replace="headerFragment.html :: headerFragment"></div>
+<div th:each="bmi : ${bmiList}" class="bmi-result">
     <div th:text="${'Twój wzrost: ' + bmi.height}" class="bmi-result-row"></div>
     <div th:text="${'Twoja waga: ' + bmi.weight}" class="bmi-result-row"></div>
     <div th:text="${'Twoja płeć: ' + bmi.sex}" class="bmi-result-row"></div>
     <div th:text="${'Twoje BMI: ' + bmi.bmiValue}" class="bmi-result-row"></div>
     <div th:text="${'Twoje ID: ' + bmi.id}" class="bmi-result-row"></div>
 </div>
+<div th:text="${'Średnie BMI: ' + averageBmi}" id="average-bmi"></div>
 </body>
 </html>

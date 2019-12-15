@@ -6,7 +6,6 @@ import org.hibernate.cfg.Configuration;
 import org.springframework.stereotype.Service;
 import pl.programator.services.IHibernateSessionFactoryService;
 
-@Service
 public class HibernateSessionFactoryServiceImpl
         implements IHibernateSessionFactoryService {
 

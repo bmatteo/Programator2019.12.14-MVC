@@ -1,0 +1,22 @@
+#header {
+    text-align: center;
+    font-size: 28px;
+    color: blue;
+    margin: 20px;
+    padding: 5px;
+}
+.bmi-result {
+    margin: 5px auto;
+    border: 1px solid blue;
+    border-radius: 25px;
+    padding: 5px;
+    color: blue;
+    width: 200px;
+}
+.bmi-result div {
+    text-align: center;
+}
+#average-bmi {
+    text-align:center;
+    color: blue;
+}

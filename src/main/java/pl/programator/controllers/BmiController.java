@@ -5,10 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import pl.programator.model.Bmi;
-import pl.programator.model.Sex;
 import pl.programator.services.IBmiService;
-
-import java.util.List;
 
 @Controller
 public class BmiController {
@@ -55,8 +52,8 @@ public class BmiController {
 
     @RequestMapping(value = "/allRecords", method = RequestMethod.GET)
     public String getAllBmi(Model model) {
-        List<Bmi> bmis = this.bmiService.getAllBims();
-        model.addAttribute("bmiList", bmis);
+        model.addAttribute("bmiList", this.bmiService.getAllBims());
+        model.addAttribute("averageBmi", this.bmiService.calculateAverageBmi());
         return "allResult";
     }
 
@@ -65,6 +62,6 @@ public class BmiController {
                 /(((double) height)*((double) height));
         bmi = bmi * 10000;
 
-        return Math.round(bmi * 100)/100;
+        return ((double) Math.round(bmi * 100))/100.0;
     }
 }

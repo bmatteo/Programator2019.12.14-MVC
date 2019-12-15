@@ -11,11 +11,13 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public class BmiDAOImpl implements IBmiDAO {
 
-    @Autowired
     IHibernateSessionFactoryService sessionFactoryService;
+
+    public BmiDAOImpl(IHibernateSessionFactoryService sessionFactoryService) {
+        this.sessionFactoryService = sessionFactoryService;
+    }
 
     @Override
     public Bmi saveBmi(Bmi bmi) {

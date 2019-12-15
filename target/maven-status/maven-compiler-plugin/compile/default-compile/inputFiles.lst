@@ -1,0 +1,12 @@
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/dao/impl/BmiDAOImpl.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/services/IBmiService.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/model/Bmi.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/model/Sex.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/services/impl/HibernateSessionFactoryServiceImpl.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/controllers/BmiController.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/services/IHibernateSessionFactoryService.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/App.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/services/impl/BmiServiceImpl.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/configuration/AppConfiguration.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/Calculator.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/main/java/pl/programator/dao/IBmiDAO.java
