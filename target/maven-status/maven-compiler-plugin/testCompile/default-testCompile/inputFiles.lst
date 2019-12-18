@@ -1,1 +1,4 @@
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/test/java/pl/programator/configuration/AppConfigurationTest.java
 /home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/test/java/pl/programator/CalculatorTest.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/test/java/pl/programator/dao/impl/BmiDOAStub.java
+/home/mateusz/codeAcademy/programator-wieczorowa/2019.12.14-hibernateSpringTL/src/test/java/pl/programator/services/impl/BmiServiceImplTest.java

@@ -1,0 +1,12 @@
+pl/programator/services/impl/BmiServiceImpl.class
+pl/programator/configuration/AppConfiguration.class
+pl/programator/services/impl/HibernateSessionFactoryServiceImpl.class
+pl/programator/model/Bmi.class
+pl/programator/dao/impl/BmiDAOImpl.class
+pl/programator/App.class
+pl/programator/model/Sex.class
+pl/programator/controllers/BmiController.class
+pl/programator/Calculator.class
+pl/programator/services/IBmiService.class
+pl/programator/services/IHibernateSessionFactoryService.class
+pl/programator/dao/IBmiDAO.class
